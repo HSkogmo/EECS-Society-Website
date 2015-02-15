@@ -1,0 +1,140 @@
+
+.container {
+	max-width: 1400px;
+}
+.bg-darkblue {
+	background: #0D47A1;
+	position: relative;
+}
+.bg-bluegray {
+	background: #263238;
+	position: relative;
+}
+.hero {
+	background: url('../img/hero.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.hero-text {
+	font-size: 32px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 70px;
+	font-family: 'Open Sans', sans-serif;
+}
+.hero-text button {
+	font-size: 32px;
+	font-weight: 700;
+}
+.news-item h1 {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.news-item p {
+	text-align: justify;
+}
+.footer-links h1 {
+	font-weight: 600;
+	font-size: 14px;
+}
+.footer-links {
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: "Open Sans", sans-serif;
+}
+.footer-credits {
+	color: #fff;
+	padding-top: 20px;
+	font-family: "Open Sans", sans-serif;
+}
+.footer-credits h1 {
+	margin-bottom: 12px;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+	.header-img {
+		display: none;
+	}
+	.header-img-small {
+		display: block;
+	}
+	.navbar {
+		display: relative;
+	}
+	.hero {
+		padding-top: 200px;
+		height: 140px;
+	}
+	.hero-text {
+		margin-top: -150px;
+	}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.header-img {
+		display: none;
+	}
+	.header-img-small {
+		display: block;
+	}
+	.navbar-nav {
+		font-size:12px;
+	}
+	nav {
+		margin-top: 18px;
+		margin-bottom: 20px;
+	}
+	#header {
+		height: 100px;
+	}
+	.hero {
+		height: 200px;
+	}
+	.hero-text {
+		margin-top: 36px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.header-img {
+		display: block;
+	}
+	.header-img-small {
+		display: none;
+	}
+	.navbar-nav {
+		font-size:14px;
+	}
+	#header {
+		height: 150px;
+		padding-top: 22px;
+		position: relative;
+	}
+	nav {
+		margin-top: 25px;
+	}
+	.navbar {
+		display: inline-block;
+	}
+	.hero {
+		height: 250px;
+	}
+	.hero-text {
+		margin-top: 70px;
+	}
+	.lots-of-news {
+		padding-right: 60px;
+		/* border-right: 1px rgba(0,0,0,0.2) solid; */
+	}
+	
+}
